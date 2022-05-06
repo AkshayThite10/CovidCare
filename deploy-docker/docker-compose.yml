@@ -4,13 +4,13 @@ services:
     image: tanmaydas438/covidcare-client:latest
     stdin_open: true
     ports:
-      - "3000:3000"
+      - "3001:3001"
     networks:
       - mern-app
   api-server:
     image: tanmaydas438/covidcare-server:latest
     ports:
-      - "8000:8000"
+      - "3000:3000"
     networks:
       - mern-app
     depends_on:
