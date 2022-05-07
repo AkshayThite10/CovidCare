@@ -14,7 +14,7 @@ export default function Settings() {
   const [success, setSuccess] = useState(false);
 
   
-  const PF = "http://localhost:3000/images/"
+  const PF = "http://172.20.0.11:3001/images/"
 
   const handleSubmit = async (e) => {
     e.preventDefault();
