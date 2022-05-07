@@ -6,7 +6,7 @@ export default function Header() {
     <div className="header">
       <div className="headerTitles">
         <span className="headerTitleSm"></span>
-        <span className="headerTitleLg">CovidCare</span>
+        <span className="headerTitleLg"  id="s1">CovidCare</span>
         <span className="headerTitleSm">Good Health is above Wealth!!</span>
       </div>
       <img
