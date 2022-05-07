@@ -29,6 +29,8 @@ services:
 #     driver: bridge
 networks:
   mern-app:
+    driver: bridge
+    name: mern-app
     ipam:
       config:
         - subnet: 172.20.0.0/16
