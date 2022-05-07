@@ -7,7 +7,7 @@ export default function Header() {
       <div className="headerTitles">
         <span className="headerTitleSm"></span>
         <span className="headerTitleLg"  id="s1">CovidCare</span>
-        <span className="headerTitleSm">Good Health is above Wealth!!</span>
+        <span className="headerTitleSm" id="s2">Good Health is above Wealth!!</span>
       </div>
       <img
         className="headerImg"
